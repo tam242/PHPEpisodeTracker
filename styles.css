@@ -1,0 +1,252 @@
+
+
+body {
+    background-color: #0B1622;
+    background-size: 100%;
+    margin-bottom: 80px;
+}
+
+header {
+    background-color: #112336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+li, a, button {
+
+    font-weight: 500;
+    font-size: 22px;
+    color: #8ba0b2;
+    text-decoration: none;
+}
+
+h3 {
+
+    margin: 0;
+    font-weight: 500;
+    float: left;
+    font-size: 18px;
+    color: #8ba0b2;
+}
+
+.errorMessage {
+    font-size: 18px;
+    color: #F56C91;
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.link {
+    letter-spacing: .01em;
+    padding: 18px 16px;
+}
+
+.login {
+    margin-left: 124px;
+    padding-right: 24px;
+}
+
+.logout {
+    margin-left: 104px;
+    padding-right: 24px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s easy 0s;
+}
+.logout:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.formButton {
+    margin: auto;
+    background-color: rgba(0, 136, 169, 1);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s easy 0s;
+    max-width: 20%; 
+    min-width: 96px;
+}
+.formButton:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.signup {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s easy 0s;
+}
+.signup:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.logo {
+    cursor: pointer;
+    height:  50px;
+    width: 50px;
+    margin-right: 156px;
+    border-radius: 25px;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a {
+    transition: all 0.3s easy 0s;
+}
+
+.navLinks li a:hover {
+    color: #F09902;
+}
+
+.thumbnail {
+    border-radius: 4px;
+    height: 265px;
+    width: 185px;
+    object-fit: cover;
+}
+
+.fullerSize {
+    border-radius: 4px;
+    max-height: 395px;
+    max-width: 555px;
+    object-fit: cover;
+}
+
+.wrapper {
+    width: 72.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 36px 19px 6px;
+}
+.title:hover {
+    opacity: 0.9;
+    color: hsl(187deg 80% 70%);
+}
+
+.caption {
+    display: block;
+    font-size: 20px;
+}
+
+.loginContainer {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 400px;
+    background: rgb(21, 31, 46);
+    border-radius: 4px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 135px;
+}
+
+.formContainer {
+    margin: 0 auto;
+    min-width: 40%;
+    max-width: 50%;
+    background: rgb(21, 31, 46);
+    border-radius: 4px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 135px;
+}
+
+.addEpContainer {
+    margin: 0 auto;
+    min-width: 100%;
+    max-width: 100%;
+    background: rgb(21, 31, 46);
+    border-radius: 4px;
+    padding: 40px;
+    text-align: left;
+}
+
+.loginTitle {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+input, textarea {
+    display: inline-block;
+    cursor: text;
+    padding: 0px 15px;
+    margin-bottom: 25px;
+    background: #0B1622;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #8ba0b2;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+input, textarea:focus {outline:none;}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    height: 60px;
+}
+
+.description {
+    margin: 24px;
+
+    font-weight: 500;
+    font-size: 20px;
+    color: #8ba0b2;
+}
+
+.epCount {
+    max-width: 18%; background: black; margin-bottom: 0px;
+}
+
+.seenEp {
+    border-left: 1px dashed #6B53E0;
+    padding-left: 10px;
+}
+
